@@ -130,7 +130,17 @@ main{
     font-size: 2rem;
     color: white;
     padding-top: 20px;
+    transition: 0.15s ease-in;
+
 }
+
+.circle p:hover {
+
+    font-size: 2.2rem;
+    cursor: pointer;
+
+}
+
 
 .circle-box h3{
     color:rgb(42, 128, 241);
@@ -336,9 +346,11 @@ h1~p{
 
 a:hover{
     font-weight: 800;
+    transition: 0.2s ease-in;
 }
 
 .contentLeft button:hover{
     background-color: rgb(7, 105, 253);
     color: white;
+    cursor: pointer;
 }
